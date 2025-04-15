@@ -10,7 +10,7 @@ import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
 
 const ShapesSetting = () => {
   const { canvasEditor } = useCanvasHook();
-  const [show, setShow] = useState(false);
+  const [, setShow] = useState(false);
 
   const onDelete = () => {
     const activeObject = canvasEditor?.getActiveObject();
