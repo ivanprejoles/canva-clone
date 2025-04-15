@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 import { Toggle } from "@/components/ui/toggle";
 import { Bold, Italic, Underline } from "lucide-react";
 import React from "react";

@@ -3,7 +3,7 @@ import ImageKit from "imagekit";
 import { useParams } from "next/navigation";
 import { Loader2Icon } from "lucide-react";
 import { FabricImage } from "fabric";
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 
 const UploadImage = () => {
   const { designId } = useParams();

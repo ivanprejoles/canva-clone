@@ -6,7 +6,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { Trash } from "lucide-react";
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 import FontStyles from "../Sharable/FontStyles";
 
 const TextSettingsNavbar = () => {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ShapesSetting from "../Sharable/ShapesSetting";
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 import TextSettingsNavbar from "./TextSettingsNavbar";
 
 const TopNavBar = () => {

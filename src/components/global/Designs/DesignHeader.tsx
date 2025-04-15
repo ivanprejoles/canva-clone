@@ -1,4 +1,4 @@
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 import { Button } from "@/components/ui/button";
 import { designType } from "@/types";
 import { UserButton } from "@stackframe/stack";

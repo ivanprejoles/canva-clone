@@ -1,4 +1,4 @@
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 import TopNavBar from "@/services/Components/TopNavBar";
 import { designType } from "@/types";
 import { Canvas } from "fabric";

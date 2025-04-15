@@ -1,6 +1,6 @@
 import React from "react";
 import { FontFamilyList } from "../Option";
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 
 const FontFamily = () => {
   const { canvasEditor } = useCanvasHook();

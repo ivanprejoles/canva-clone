@@ -4,7 +4,7 @@ import { useConvex } from "convex/react";
 import React, { useContext, useEffect, useState } from "react";
 import { api } from "../../../convex/_generated/api";
 import Image from "next/image";
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 import { designListType } from "@/types";
 import { UserDetailContext } from "@/context/UserDetailContext";
 import { useRouter } from "next/navigation";

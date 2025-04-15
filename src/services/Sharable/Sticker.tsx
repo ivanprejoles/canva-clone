@@ -2,7 +2,7 @@ import React from "react";
 import { StickerList } from "../Option";
 import Image from "next/image";
 import { FabricImage } from "fabric";
-import { useCanvasHook } from "@/app/(routes)/design/[designId]/page";
+import { useCanvasHook } from "@/hooks/useCanvasHook";
 
 const Sticker = () => {
   const { canvasEditor } = useCanvasHook();
